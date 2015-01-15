@@ -16,7 +16,10 @@ npm install --save has-whitespace
 var hasWhitespace = require('has-whitespace');
 
 hasWhitespace('foo');   // false
+hasWhitespace('bar');   // false
+
 hasWhitespace(' foo '); // true
+hasWhitespace('bar\r'); // true
 ```
 
 ## License
