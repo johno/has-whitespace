@@ -1,0 +1,33 @@
+{
+  "name": "has-whitespace",
+  "description": "Check whether a string contains whitespace",
+  "author": "John Otander",
+  "version": "0.0.1",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/johnotander/has-whitespace.git"
+  },
+  "keywords": [
+    "whitespace",
+    "has-whitespace",
+    "space"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/johnotander/has-whitespace/issues"
+  },
+  "homepage": "https://github.com/johnotander/has-whitespace",
+  "dependencies": {
+    "is-present": "0.0.1"
+  },
+  "devDependencies": {
+    "mocha": "*"
+  }
+}
