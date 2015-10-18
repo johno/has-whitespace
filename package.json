@@ -28,6 +28,6 @@
     "is-present": "0.0.1"
   },
   "devDependencies": {
-    "mocha": "*"
+    "ava": "^0.2.0"
   }
 }
